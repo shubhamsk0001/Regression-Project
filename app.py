@@ -37,3 +37,11 @@ def predict_datapoint():
         results=round(pred[0],2)
 
         return render_template('results.html',final_result=results)
+
+
+
+
+
+
+if __name__=="__main__":
+    app.run(host='0.0.0.0',debug=True)
